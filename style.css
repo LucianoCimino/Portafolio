@@ -25,24 +25,37 @@
 	h2{
 		font-family: Roboto;
 		font-weight: 400;
+		font-size: 50px;
 		font-variant-caps: small-caps;
 		color: #F2F2F2;
 		text-align: center;
 	}
 
-	nav{
-		display: inline-block;
+	nav ul{
 		font-family: Roboto;
 		font-weight: 400;
+		font-size: 42px;
+		list-style: none;
+		background-color: #333333;
+		overflow: hidden;
 	}
 
-	nav a {
-		text-decoration-style: none;
+	nav ul li{
+		float: left;
+		width: 25%;
+
+	}
+
+	nav ul li a {
 		color: #F2F2F2;
+		display: block;
+		padding: .3em;
+		
+
 	}
 
-	body div #container{
-		display: inline-block;
+
+
 	}
 
 }
