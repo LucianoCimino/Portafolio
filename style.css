@@ -126,6 +126,48 @@
 		margin: 3em 0;
 	}
 
+	/*estilos interfaz*/
+
+	div.presentacion_tema{
+		margin: 0 1.5em;
+		padding: 1em 0 3em 0;
+	}
+	h4{
+		font-family: Roboto Slab;
+		font-weight: 700;
+		font-size: 50px;
+		text-align: right;
+		color: #333333;
+	}
+
+	div.presentacion_tema p{
+		font-family: Roboto;
+		font-weight: 400;
+		font-size: 30px;
+	}
+
+	div#video_includown iframe{
+		width: 100%;
+	}
+
+	div.proyecto1 div.descripcion_proyecto{
+		margin: 2em 1.5em;
+	}
+
+	h5{
+		font-family: Roboto;
+		font-weight: 700;
+		font-size: 45px;
+		margin: 1em 0;
+	}
+
+	div.proyecto1 div.descripcion_proyecto p{
+		font-family: Roboto;
+		font-weight: 400;
+		font-size: 30px;
+		margin: 1em 0 3em 0;
+	}
+
 	/*Estilos del footer*/
 	footer{
 		background-color: #333333;
@@ -160,6 +202,7 @@
 		font-size: 40px;
 		padding: 1em 0 .3em 3em;
 	}
+
 
 }
 
