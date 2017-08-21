@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700');
 
 /*media query celular*/
-@media only screen and (max-device-width: 6400px){
+@media only screen and (min-device-width: 320px){
 
 	body{
 		background-color: #F2F2F2;
 	}
 
-
+	/*estilos del header*/
 	header{
 		background-color: #333333;
 		
@@ -88,45 +88,45 @@
 		display: inline-block;
 		padding: .3em .3em .3em 1em;
 		position: relative;
-		top: 180px;
-		
-		
-			
-
+		top: 180px
 	}
+
 	div#container div#editorial{
 		background: url(img/proyectos/editorial.jpg);
 		background-size: 100%;
 		height: 500px;
 		margin: 3em 0;
 	}
+
 	div#container div#expositivo{
 		background: url(img/proyectos/expositivo.jpg);
 		background-size: 100%;
 		height: 500px;
 		margin: 3em 0;
 	}
+
 	div#container div#objetos{
 		background: url(img/proyectos/objeto.jpg);
 		background-size: 100%;
 		height: 500px;
 		margin: 3em 0;
 	}
+
 	div#container div#interfaz{
 		background: url(img/proyectos/interfaz.jpg);
 		background-size: 100%;
 		height: 500px;
 		margin: 3em 0;
 	}
+
 	div#container div#organización{
 		background: url(img/proyectos/organizacion.jpg);
 		background-size: 100%;
 		height: 500px;
 		margin: 3em 0;
-
 	}
 
-/*Estilos del footer*/
+	/*Estilos del footer*/
 	footer{
 		background-color: #333333;
 	}
@@ -161,14 +161,9 @@
 		padding: 1em 0 .3em 3em;
 	}
 
-	
-	
-
-
-
-	}
-
 }
+
+
 /*media query iPad*/
 @media only screen and (min-device-width : 768px){
 
@@ -177,37 +172,5 @@
 
 /*media query escritorio*/
 @media only screen  and (min-width : 1224px){
-	/*estilos del header*/
-	header{
-		background-color: #333333;
 
-	}
-
-	h1{
-		font-family: Roboto Slab;
-		font-weight: 400;
-		color: #F2F2F2;
-	}
-
-	h2{
-		font-family: Roboto;
-		font-weight: 300;
-		font-variant-caps: small-caps;
-		color: #F2F2F2;
-	}
-
-	nav{
-		display: inline-block;
-		font-family: Roboto;
-		font-weight: 400;
-	}
-
-	nav a {
-		text-decoration-style: none;
-		color: #F2F2F2;
-	}
-
-
-
-}
 
