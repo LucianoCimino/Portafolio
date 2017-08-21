@@ -20,9 +20,9 @@
 		font-weight: 700;
 		color: #F2F2F2;
 		text-align: center;
-		font-size: 110px;
+		font-size: 90px;
 		font-variant-caps: small-caps;
-		letter-spacing: 2pt;
+		letter-spacing: 3pt;
 		margin: 0;
 	}
 
@@ -40,11 +40,11 @@
 	h2{
 		font-family: Roboto;
 		font-weight: 400;
-		font-size: 80px;
+		font-size: 55px;
 		font-variant-caps: small-caps;
 		color: #F2F2F2;
 		text-align: center;
-		letter-spacing: 2pt;
+		letter-spacing: 4pt;
 		margin: 0;
 		
 
@@ -68,7 +68,7 @@
 	nav ul li a {
 		color: #F2F2F2;
 		display: block;
-		padding: .4em;
+		padding: .8em .4em;
 	}
 
 	
@@ -83,7 +83,7 @@
 	div#container a h3{
 		font-family: Roboto;
 		font-weight: 700;
-		font-size: 48px;
+		font-size: 45px;
 		background-color: rgba(195, 153, 27, 0.9);
 		display: inline-block;
 		padding: .3em .3em .3em 1em;
@@ -98,7 +98,7 @@
 		background: url(img/proyectos/editorial.jpg);
 		background-size: 100%;
 		height: 500px;
-		margin: 6em 0 3em 0;
+		margin: 3em 0;
 	}
 	div#container div#expositivo{
 		background: url(img/proyectos/expositivo.jpg);
@@ -149,16 +149,16 @@
 	footer ul li{
 		font-family: Roboto Slab;
 		font-weight: 700;
-		color:#f2f2f2;
+		font-size: 40px;
 		padding: 1em 0 1em 0;
 		list-style: none;
-
 	}
 
 	footer ul li ol li{
 		font-family: Roboto;
 		font-weight: 400;
-		padding: 3em 0 .3em 3em;
+		font-size: 20px;
+		padding: 1em 0 .3em 3em;
 	}
 
 	
