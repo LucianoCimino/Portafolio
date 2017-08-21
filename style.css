@@ -10,7 +10,7 @@
 
 	header{
 		background-color: #333333;
-		width: 100%;
+		
 
 
 	}
@@ -23,17 +23,18 @@
 		font-size: 110px;
 		font-variant-caps: small-caps;
 		letter-spacing: 2pt;
+		margin: 0;
 	}
 
 
 	}
-	header div.nombre div.logo img{
+	header div.nombre div.logo{
+		background:url(img/header/logo-LC-2.png);
+		height: 150px;
 		width: 150px;
-		padding: 0% 45%;
+		background-size: 100%;
+		margin: 0 45%;
 	
-
-
-
 	}
 
 	h2{
@@ -44,6 +45,7 @@
 		color: #F2F2F2;
 		text-align: center;
 		letter-spacing: 2pt;
+		margin: 0;
 		
 
 	}
@@ -84,9 +86,10 @@
 		font-size: 48px;
 		background-color: rgba(195, 153, 27, 0.9);
 		display: inline-block;
-		padding: .3em;
+		padding: .3em .3em .3em 1em;
 		position: relative;
 		top: 180px;
+		
 		
 			
 
@@ -95,28 +98,70 @@
 		background: url(img/proyectos/editorial.jpg);
 		background-size: 100%;
 		height: 500px;
+		margin: 6em 0 3em 0;
 	}
 	div#container div#expositivo{
 		background: url(img/proyectos/expositivo.jpg);
 		background-size: 100%;
 		height: 500px;
+		margin: 3em 0;
 	}
 	div#container div#objetos{
 		background: url(img/proyectos/objeto.jpg);
 		background-size: 100%;
 		height: 500px;
+		margin: 3em 0;
 	}
 	div#container div#interfaz{
 		background: url(img/proyectos/interfaz.jpg);
 		background-size: 100%;
 		height: 500px;
+		margin: 3em 0;
 	}
 	div#container div#organización{
 		background: url(img/proyectos/organizacion.jpg);
 		background-size: 100%;
 		height: 500px;
+		margin: 3em 0;
+
 	}
 
+/*Estilos del footer*/
+	footer{
+		background-color: #333333;
+	}
+
+	footer a{
+		text-decoration:none;
+		color: #f2f2f2;
+
+	}
+
+	footer a:visited{
+		color:#f2f2f2;
+	}
+	
+	footer ul{
+		padding-top: 6em;
+		list-style: none;
+	}
+
+	footer ul li{
+		font-family: Roboto Slab;
+		font-weight: 700;
+		color:#f2f2f2;
+		padding: 1em 0 1em 0;
+		list-style: none;
+
+	}
+
+	footer ul li ol li{
+		font-family: Roboto;
+		font-weight: 400;
+		padding: 3em 0 .3em 3em;
+	}
+
+	
 	
 
 
