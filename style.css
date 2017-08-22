@@ -174,10 +174,23 @@
 	}
 
 	/*Estilos imagenes*/
-	div.proyecto1 div.slider button.left{
-		float: left;
+	.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: rgba(255 255 255 0.9)!important;
+    padding: 3em;
 	}
+		
+	.w3-display-left {
+	position: absolute; 
+    top: 50%;
+    left: 0%;
+	}	
 
+    .w3-display-right {
+	position: absolute; 
+    top: 50%;
+    right: 0%;
+	}
 	/*estilos foto de perdil*/
 	div.presentacion_tema div#foto_perfil{
 		background:url(img/sobre_mi/sobremi.jpg);
