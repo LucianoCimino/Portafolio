@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700');
 
 /*media query celular*/
-@media only screen and (min-device-width: 320px){
+
 
 	body{
 		background-color: #F2F2F2;
+		margin: -.5em -.5em;
 	}
 
 	/*estilos del header*/
 	header{
 		background-color: #333333;
+		margin: 
 	}
 
 	h1{
@@ -24,13 +26,14 @@
 	}
 
 
-	}
+	
 	header div.nombre div.logo{
 		background:url(img/header/logo-LC-2.png);
 		height: 150px;
 		width: 150px;
 		background-size: 100%;
 		margin: 0 45%;
+
 	
 	}
 
@@ -179,9 +182,18 @@
 		border: 15px solid #C29618;
 	}
 
+	/*Estilo formulario*/
+
+	form{
+		margin: 0 auto;
+		padding: 1em;
+		border:1px solid ##C29618;
+	}
+
 	/*Estilos del footer*/
 	footer{
 		background-color: #333333;
+		
 	}
 
 	footer a{
