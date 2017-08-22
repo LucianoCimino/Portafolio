@@ -174,22 +174,20 @@
 	}
 
 	/*Estilos imagenes*/
-	.w3-black, .w3-hover-black:hover {
+	.w3-black{
     color: #fff!important;
-    background-color: rgba(255 255 255 0.9)!important;
-    padding: 3em;
+    background-color: #333333!important;
+    padding: 10em 2em;
+    position: relative;
+    bottom: 500px;
 	}
 		
 	.w3-display-left {
-	position: absolute; 
-    top: 50%;
-    left: 0%;
+    margin-left: 0;
 	}	
 
-    .w3-display-right {
-	position: absolute; 
-    top: 50%;
-    right: 0%;
+    .w3-display-right { 
+    margin-right: 0;
 	}
 	/*estilos foto de perdil*/
 	div.presentacion_tema div#foto_perfil{
