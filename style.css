@@ -175,20 +175,22 @@
 
 	/*Estilos imagenes*/
 	.w3-black{
+	font-size: 3em;
     color: #fff!important;
-    background-color: #333333!important;
-    padding: 10em 2em;
-    position: relative;
-    bottom: 500px;
+    background-color: rgba(0, 0, 0, 0.5)!important;
+    padding: 1em .9em;
+ 	border:none;
+ 	position: inherit;
+ 	display: inline-block;
+ 	vertical-align: middle;
+ 	text-align: center!important;
 	}
 		
 	.w3-display-left {
-    margin-left: 0;
 	}	
 
     .w3-display-right { 
-    margin-right: 0;
-	}
+   	}
 	/*estilos foto de perdil*/
 	div.presentacion_tema div#foto_perfil{
 		background:url(img/sobre_mi/sobremi.jpg);
