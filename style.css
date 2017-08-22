@@ -5,7 +5,7 @@
 
 	body{
 		background-color: #F2F2F2;
-		margin: -.1em -.1em;
+		margin: -.1em;
 	}
 
 	/*estilos del header*/
@@ -171,6 +171,11 @@
 	/*estilo video includown*/
 	div.video iframe{
 		width: 100%;
+	}
+
+	/*Estilos imagenes*/
+	div.proyecto1 div.slider button.left{
+		float: left;
 	}
 
 	/*estilos foto de perdil*/
