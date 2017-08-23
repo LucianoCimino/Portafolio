@@ -215,6 +215,7 @@
 		background-color: rgba(255, 255, 255, 0.5);
 		border-radius: 50%;
 		border: 3px solid #C29618;
+		cursor: pointer;
 	}
 
 	.slider input[type="radio"]:checked + label{
