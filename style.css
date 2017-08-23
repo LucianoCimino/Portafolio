@@ -178,7 +178,7 @@
 	ul.slider{
 		display: flex;
 		width: 100%;
-		height: 650px;
+		height: 600px;
 		margin: auto;
 		position: relative;
 		list-style: none;
@@ -207,15 +207,20 @@
 
 	.slider input[type="radio"] + label {
 		position: relative;
-		margin: 40px;
+		margin: 50px;
 		z-index: 50;
 		display: block;
-		width: 50px;
-		height: 50px;
+		width: 60px;
+		height: 60px;
 		background-color: rgba(255, 255, 255, 0.5);
 		border-radius: 50%;
 		border: 3px solid #C29618;
 	}
+
+	.slider input[type="radio"]:checked + label{
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
 	
 
 
