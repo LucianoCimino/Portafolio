@@ -3,6 +3,9 @@
 	<head>
 		<title>Objeto Luciano Cimino</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="javascript.js">
+			
+		</script>
 	</head>
 
 	<body>
@@ -34,41 +37,38 @@
 			<div class="presentacion_tema">
 				<h4>Diseño de Objetos</h4>
 				<p>Cabe señalar que la creación de estos objetos, a diferencia del diseño de objetos, son  gráficos, los cuales son diseñados como soporte que viene a recibir a la gráfica. Estos toman forma en relación a la lectura que se busca aplicar.</p>
-				
 			</div>
 			<div class="proyecto1">
-				<div class="slider">
-					<img src="img/objetos/señaletica/señaletica1.jpg" class="imagen" style="width: 100%">
-					<img src="img/objetos/señaletica/señaletica2.jpg" class="imagen" style="width: 100%">
-					<img src="img/objetos/señaletica/señaletica3.jpg" class="imagen" style="width: 100%">
-					<img src="img/objetos/señaletica/señaletica4.jpg" class="imagen" style="width: 100%">
-					<img src="img/objetos/señaletica/señaletica5.jpg" class="imagen" style="width: 100%">
-					<img src="img/objetos/señaletica/señaletica6.jpg" class="imagen" style="width: 100%">
-					<img src="img/objetos/señaletica/señaletica7.jpg" class="imagen" style="width: 100%">
-					<div>
-						<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  						<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-  					</div>	
+				<div id="imagenes">
+					<ul class="slider">
+						<li>
+							<input type="radio" id="sbutton1" name="sradio" checked="checked">
+							<label for="sbutton1"></label>		
+							<img src="img/objetos/señaletica/señaletica1.jpg" alt="">					
+						</li>
+						<li>
+							<input type="radio" id="sbutton2" name="sradio">
+							<label for="sbutton2"></label>		
+							<img src="img/objetos/señaletica/señaletica2.jpg" alt="">					
+						</li>
+						<li>
+							<input type="radio" id="sbutton3" name="sradio">
+							<label for="sbutton3"></label>		
+							<img src="img/objetos/señaletica/señaletica3.jpg" alt="">					
+						</li>
+						<li>
+							<input type="radio" id="sbutton4" name="sradio">
+							<label for="sbutton4"></label>		
+							<img src="img/objetos/señaletica/señaletica4.jpg" alt="">					
+						</li>
+						<li>
+							<input type="radio" id="sbutton5" name="sradio">
+							<label for="sbutton5"></label>		
+							<img src="img/objetos/señaletica/señaletica5.jpg" alt="">					
+						</li>
+					</ul>
 				</div>
-				<script>
-					var slideIndex = 1;
-					showDivs(slideIndex);
-
-					function plusDivs(n) {
-					  showDivs(slideIndex += n);
-					}
-
-					function showDivs(n) {
-					  var i;
-					  var x = document.getElementsByClassName("imagen");
-					  if (n > x.length) {slideIndex = 1}    
-					  if (n < 1) {slideIndex = x.length}
-					  for (i = 0; i < x.length; i++) {
-					     x[i].style.display = "none";  
-					  }
-					  x[slideIndex-1].style.display = "block";  
-					}
-				</script>
+				
 				<div class="descripcion_proyecto">
 					<h5>Señalética de Emergencia</h5>
 					<p>Tras el incendio de Valparaíso el año 2014, se tomó la catástrofe como un área del estudio para el diseño gráfico. De esta manera, posterior a la recolección de escombros, subimos a observar que los habitantes del cerro merced (específicamente) anotaban sus nombres y teléfonos donde yacían los restos de su hogar. Para esto, el taller diseñó un sistema de señaléticas que buscaban, por un lado, orientar a la gente que subía con ayuda y, por otro lado, permitir que los mismos vecinos anotaran información prudente y de utilidad. </p>
