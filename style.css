@@ -172,6 +172,7 @@
 	/*estilo video includown*/
 	div.video iframe{
 		width: 100%;
+		height: 500px;
 	}
 
 	/*Estilos slider*/
