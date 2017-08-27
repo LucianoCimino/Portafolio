@@ -235,6 +235,16 @@
 		border: 15px solid #C29618;
 	}
 
+/*estilos mensaje enviado*/
+	div.presentacion_tema div#mensaje_enviado{
+		background:url(img/mensaje_enviado.jpg);
+		background-size: 100%;
+		width: 550px;
+		height: 550px;
+		margin: 5em 22%;
+		border-radius: 50%;
+	}
+
 /*Estilo formulario*/
 	form{
 		width: 100%;
@@ -250,6 +260,7 @@
 		border: 3px solid #C29618;
 		border-radius: 10px;
 	}
+
 	
 
 /*Estilos del footer*/
