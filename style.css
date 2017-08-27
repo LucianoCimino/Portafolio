@@ -5,7 +5,7 @@
 
 	body{
 		background-color: #F2F2F2;
-		margin: -.1em;
+		margin: 0;
 
 	}
 
@@ -224,12 +224,7 @@
 	}
 
 	
-
-
-
-
-
-	/*estilos foto de perdil*/
+/*estilos foto de perdil*/
 	div.presentacion_tema div#foto_perfil{
 		background:url(img/sobre_mi/sobremi.jpg);
 		background-size: 100%;
@@ -240,15 +235,24 @@
 		border: 15px solid #C29618;
 	}
 
-	/*Estilo formulario*/
-
+/*Estilo formulario*/
 	form{
-		margin: 0 auto;
-		padding: 1em;
-		border:1px solid ##C29618;
+		width: 100%;
+		margin: auto;
+		padding: 10px 20px;
 	}
 
-	/*Estilos del footer*/
+	form input, textarea {
+		width: 800px;
+		margin: 20px;
+		padding: 10px 0;
+		font-size: 40px;
+		border: 3px solid #C29618;
+		border-radius: 10px;
+	}
+	
+
+/*Estilos del footer*/
 	footer{
 		background-color: #333333;
 		
