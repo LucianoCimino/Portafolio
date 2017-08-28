@@ -440,7 +440,7 @@
 		}
 
 		div.presentacion_tema p{
-			margin:0 5em;
+			margin:0 0em;
 		}
 		h4{
 			font-family: Roboto Slab;
@@ -505,6 +505,7 @@
 
 	/*Estilo formulario*/
 		form{
+
 		}
 
 		form input, textarea {
@@ -524,7 +525,6 @@
 			float: left;
 			position: relative;
 			bottom: 120px;
-		}
 		}
 }
 
