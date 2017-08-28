@@ -1,330 +1,526 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700');
 
-/*media query celular*/
+/*default*/
+		body{
+			background-color: #F2F2F2;
+			margin: 0;
 
+		}
 
-	body{
-		background-color: #F2F2F2;
-		margin: 0;
-
-	}
-
-	p{
-		font-size: 35px;
-		font-family: Roboto;
-		font-weight: 400;
-	}
+		p{
+			font-size: 35px;
+			font-family: Roboto;
+			font-weight: 400;
+		}
 
 	/*estilos del header*/
-	header{
-		background-color: #333333;
-		margin: 
-	}
+		header{
+			background-color: #333333;
+			margin: 
+		}
 
-	h1{
-		font-family: Roboto Slab;
-		font-weight: 700;
-		color: #F2F2F2;
-		text-align: center;
-		font-size: 90px;
-		font-variant-caps: small-caps;
-		letter-spacing: 3pt;
-		margin: 0;
-	}
+		h1{
+			font-family: Roboto Slab;
+			font-weight: 700;
+			color: #F2F2F2;
+			text-align: center;
+			font-size: 90px;
+			font-variant-caps: small-caps;
+			letter-spacing: 3pt;
+			margin: 0;
+		}
 
 
-	
-	header div.nombre div.logo{
-		background:url(img/header/logo-LC-2.png);
-		height: 150px;
-		width: 150px;
-		background-size: 100%;
-		margin: 0 45%;
-
-	
-	}
-
-	h2{
-		font-family: Roboto;
-		font-weight: 400;
-		font-size: 55px;
-		font-variant-caps: small-caps;
-		color: #F2F2F2;
-		text-align: center;
-		letter-spacing: 4pt;
-		margin: 0;
 		
+		header div.nombre div.logo{
+			background:url(img/header/logo-LC-2.png);
+			height: 150px;
+			width: 150px;
+			background-size: 100%;
+			margin: 0 45%;
 
-	}
+		
+		}
 
-	nav ul{
-		font-family: Roboto;
-		font-weight: 400;
-		font-size: 42px;
-		list-style: none;
-		background-color: #333333;
-		overflow: hidden;
-	}
+		h2{
+			font-family: Roboto;
+			font-weight: 400;
+			font-size: 55px;
+			font-variant-caps: small-caps;
+			color: #F2F2F2;
+			text-align: center;
+			letter-spacing: 4pt;
+			margin: 0;
+			
 
-	nav ul li{
-		float: left;
-		width: 25%;
+		}
 
-	}
+		nav ul{
+			font-family: Roboto;
+			font-weight: 400;
+			font-size: 42px;
+			list-style: none;
+			background-color: #333333;
+			overflow: hidden;
+		}
 
-	nav ul li a {
-		color: #F2F2F2;
-		display: block;
-		padding: .8em .4em;
-	}
+		nav ul li{
+			float: left;
+			width: 25%;
 
-	
-	div#container a{
-		text-decoration:none;
+		}
 
-	}
+		nav ul li a {
+			color: #F2F2F2;
+			display: block;
+			padding: .8em .4em;
+		}
 
-	div#container a:visited{
-		color: #f2f2f2;
-	}
-	div#container a h3{
-		font-family: Roboto;
-		font-weight: 700;
-		font-size: 45px;
-		color: #f2f2f2;
-		background-color: rgba(195, 153, 27, 0.9);
-		display: inline-block;
-		padding: .3em .3em .3em 1em;
-		position: relative;
-		top: 180px
-	}
+	/*estilo contenedor*/
+		div#container a{
+			text-decoration:none;
 
-	div#container div#editorial{
-		background: url(img/proyectos/editorial.jpg);
-		background-size: 100%;
-		height: 500px;
-		margin: 3em 0;
-	}
+		}
 
-	div#container div#expositivo{
-		background: url(img/proyectos/expositivo.jpg);
-		background-size: 100%;
-		height: 500px;
-		margin: 3em 0;
-	}
+		div#container a:visited{
+			color: #f2f2f2;
+		}
+		div#container a h3{
+			font-family: Roboto;
+			font-weight: 700;
+			font-size: 45px;
+			color: #f2f2f2;
+			background-color: rgba(195, 153, 27, 0.9);
+			display: inline-block;
+			padding: .3em .3em .3em 1em;
+			position: relative;
+			top: 180px
+		}
 
-	div#container div#objetos{
-		background: url(img/proyectos/objeto.jpg);
-		background-size: 100%;
-		height: 500px;
-		margin: 3em 0;
-	}
+		div#container div#editorial{
+			background: url(img/proyectos/editorial.jpg);
+			background-size: 100%;
+			height: 500px;
+			margin: 3em 0;
+		}
 
-	div#container div#interfaz{
-		background: url(img/proyectos/interfaz.jpg);
-		background-size: 100%;
-		height: 500px;
-		margin: 3em 0;
-	}
+		div#container div#expositivo{
+			background: url(img/proyectos/expositivo.jpg);
+			background-size: 100%;
+			height: 500px;
+			margin: 3em 0;
+		}
 
-	div#container div#organización{
-		background: url(img/proyectos/organizacion.jpg);
-		background-size: 100%;
-		height: 500px;
-		margin: 3em 0;
-	}
+		div#container div#objetos{
+			background: url(img/proyectos/objeto.jpg);
+			background-size: 100%;
+			height: 500px;
+			margin: 3em 0;
+		}
+
+		div#container div#interfaz{
+			background: url(img/proyectos/interfaz.jpg);
+			background-size: 100%;
+			height: 500px;
+			margin: 3em 0;
+		}
+
+		div#container div#organización{
+			background: url(img/proyectos/organizacion.jpg);
+			background-size: 100%;
+			height: 500px;
+			margin: 3em 0;
+		}
 
 	/*estilos proyectos*/
 
-	div.presentacion_tema{
-		margin: 0 3em;
-		padding: 0 0 3em 0;
+		div.presentacion_tema{
+			margin: 0 3em;
+			padding: 0 0 3em 0;
+			
+		}
+		h4{
+			font-family: Roboto Slab;
+			font-weight: 700;
+			font-size: 60px;
+			text-align: right;
+			padding-right: 1em;
+			color: #333333;
+		}
+
+
+
+		div.proyecto1{
+			padding: 2em 0;
+		}
+
+		div.proyecto1 div.descripcion_proyecto{
+			margin: 2em 1.5em;
+
+		}
+
+		h5{
+			font-family: Roboto;
+			font-weight: 700;
+			font-size: 40px;
+			margin: 1em 0 .5em 0;
+			text-align: center;
+		}
+
+		div.proyecto1 div.descripcion_proyecto p{
+			margin: 1em 300px 3em 0px;
+		}
+
+		hr{
+			border: 1px solid #C29618;
+
+		}
+	/*estilo video */
+		div.video iframe{
+			width: 100%;
+			height: 500px;
+		}
+
+
+
+	/*Estilos slider*/
+		ul.slider{
+			display: flex;
+			width: 100%;
+			height: 600px;
+			margin: auto;
+			position: relative;
+			list-style: none;
+			padding: 0;
+			justify-content: center;
+			align-items: flex-end;
+		}
+
+		.slider img{
+			position: absolute;
+			top: 0;
+			left:0;
+			width:100%;
+			height: 100%;
+			opacity: 0;
+		}
+
+		.slider input[type="radio"] {
+			display: none;
+
+		}
+
+		.slider input[type="radio"]:checked ~ img {
+			opacity: 1;
+		}
+
+		.slider input[type="radio"] + label {
+			position: relative;
+			margin: 50px;
+			z-index: 50;
+			display: block;
+			width: 60px;
+			height: 60px;
+			background-color: rgba(255, 255, 255, 0.5);
+			border-radius: 50%;
+			border: 3px solid #C29618;
+			cursor: pointer;
+		}
+
+		.slider input[type="radio"]:checked + label{
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+
 		
-	}
-	h4{
-		font-family: Roboto Slab;
-		font-weight: 700;
-		font-size: 60px;
-		text-align: right;
-		padding-right: 1em;
-		color: #333333;
-	
-	}
+	/*estilos foto de perfil*/
+		div.presentacion_tema div#foto_perfil{
+			background:url(img/sobre_mi/sobremi.jpg);
+			background-size: 100%;
+			width: 550px;
+			height: 550px;
+			margin: 5em 22%;
+			border-radius: 50%;
+			border: 15px solid #C29618;
+		}
 
+	/*estilos mensaje enviado*/
+		div.presentacion_tema div#mensaje_enviado{
+			background:url(img/mensaje_enviado.jpg);
+			background-size: 100%;
+			width: 550px;
+			height: 550px;
+			margin: 5em 22%;
+			border-radius: 50%;
+		}
 
+	/*Estilo formulario*/
+		form{
+			width: 100%;
+			margin: auto;
+			padding: 10px 20px;
+		}
 
-	div.proyecto1{
-		padding: 2em 0;
-	}
+		form input, textarea {
+			width: 800px;
+			margin: 20px;
+			padding: 10px 0;
+			font-size: 40px;
+			border: 3px solid #C29618;
+			border-radius: 10px;
+		}
 
-	div.proyecto1 div.descripcion_proyecto{
-		margin: 2em 1.5em;
-
-	}
-
-	h5{
-		font-family: Roboto;
-		font-weight: 700;
-		font-size: 40px;
-		margin: 1em 0 .5em 0;
-		text-align: center;
-	}
-
-	div.proyecto1 div.descripcion_proyecto p{
-		margin: 1em 300px 3em 0px;
-	}
-
-	hr{
-		border: 1px solid #C29618;
-
-	}
-/*estilo video */
-	div.video iframe{
-		width: 100%;
-		height: 500px;
-	}
-
-
-
-/*Estilos slider*/
-	ul.slider{
-		display: flex;
-		width: 100%;
-		height: 600px;
-		margin: auto;
-		position: relative;
-		list-style: none;
-		padding: 0;
-		justify-content: center;
-		align-items: flex-end;
-	}
-
-	.slider img{
-		position: absolute;
-		top: 0;
-		left:0;
-		width:100%;
-		height: 100%;
-		opacity: 0;
-	}
-
-	.slider input[type="radio"] {
-		display: none;
-
-	}
-
-	.slider input[type="radio"]:checked ~ img {
-		opacity: 1;
-	}
-
-	.slider input[type="radio"] + label {
-		position: relative;
-		margin: 50px;
-		z-index: 50;
-		display: block;
-		width: 60px;
-		height: 60px;
-		background-color: rgba(255, 255, 255, 0.5);
-		border-radius: 50%;
-		border: 3px solid #C29618;
-		cursor: pointer;
-	}
-
-	.slider input[type="radio"]:checked + label{
-		background-color: rgba(0, 0, 0, 0.5);
-	}
-
-	
-/*estilos foto de perfil*/
-	div.presentacion_tema div#foto_perfil{
-		background:url(img/sobre_mi/sobremi.jpg);
-		background-size: 100%;
-		width: 550px;
-		height: 550px;
-		margin: 5em 22%;
-		border-radius: 50%;
-		border: 15px solid #C29618;
-	}
-
-/*estilos mensaje enviado*/
-	div.presentacion_tema div#mensaje_enviado{
-		background:url(img/mensaje_enviado.jpg);
-		background-size: 100%;
-		width: 550px;
-		height: 550px;
-		margin: 5em 22%;
-		border-radius: 50%;
-	}
-
-/*Estilo formulario*/
-	form{
-		width: 100%;
-		margin: auto;
-		padding: 10px 20px;
-	}
-
-	form input, textarea {
-		width: 800px;
-		margin: 20px;
-		padding: 10px 0;
-		font-size: 40px;
-		border: 3px solid #C29618;
-		border-radius: 10px;
-	}
-
-	#boton:hover{
-		cursor: pointer;
+		#boton:hover{
+			cursor: pointer;
+			
+		}
 		
-	}
-	
 
-/*Estilos del footer*/
-	footer{
-		background-color: #333333;
+	/*Estilos del footer*/
+		footer{
+			background-color: #333333;
+			
+		}
+
+		footer a{
+			text-decoration:none;
+			color: #f2f2f2;
+
+		}
+
+		footer a:visited{
+			color:#f2f2f2;
+		}
 		
-	}
+		footer ul{
+			padding-top: 2em;
+			list-style: none;
+		}
 
-	footer a{
-		text-decoration:none;
-		color: #f2f2f2;
+		footer ul li{
+			font-family: Roboto Slab;
+			font-weight: 700;
+			font-size: 40px;
+			padding: .5em 0 .5em 0;
+			list-style: none;
+		}
 
-	}
-
-	footer a:visited{
-		color:#f2f2f2;
-	}
-	
-	footer ul{
-		padding-top: 2em;
-		list-style: none;
-	}
-
-	footer ul li{
-		font-family: Roboto Slab;
-		font-weight: 700;
-		font-size: 40px;
-		padding: .5em 0 .5em 0;
-		list-style: none;
-	}
-
-	footer ul li ol li{
-		font-family: Roboto;
-		font-weight: 400;
-		font-size: 30px;
-		padding: 1em 0 .3em 3em;
-	}
-
-
-}
-
-
-/*media query iPad*/
-@media only screen and (min-device-width : 768px){
-
-}
+		footer ul li ol li{
+			font-family: Roboto;
+			font-weight: 400;
+			font-size: 30px;
+			padding: 1em 0 .3em 3em;
+		}
 
 
 /*media query escritorio*/
-@media only screen  and (min-width : 1224px){
+@media only screen and (min-width: 1200px){
+
+	p{
+		font-size: 18px;
+	}
+	/*header*/
+		header{
+			height: 120px;
+		}
+
+		div.nombre{
+			position: relative;
+			bottom: 30px;
+		}
+
+		h1{
+			font-size: 40px;
+			text-align: left;
+			position: relative;
+			top: 60px;
+			padding-left: 7em;
+			display: inline-block;
+
+		}
+		header div.nombre div.logo{
+			height: 80px;
+			width: 80px;
+		}
+
+		h2{
+			font-size: 40px;
+			text-align: right;
+			position: relative;
+			bottom: 73px;
+			padding-left: 18em;
+			display: inline-block;
+		}
+		nav{
+			position: relative;
+			bottom: 100px;
+
+		}
+		nav ul{
+			font-size: 25px;
+
+		}
+		nav ul li a{
+	    padding: 0em 2.2em 1em 2em;
+		}
+
+	/*container*/
+		div#container div#editorial{
+			background-size: cover;
+			background-position: 30% 0;
+		}
+		div#container div#expositivo{
+			background-size: cover;
+			background-position: 30% 0;
+		}
+		div#container div#objetos{
+			background-size: cover;
+			background-position: 30% 0;
+		}
+		div#container div#interfaz{
+			background-size: cover;
+			background-position: 40% 0;
+		}
+		div#container div#organización{
+			background-size: cover;
+			background-position: 75% 0;
+		}
+
+		div#container a{
+			width: 19%;
+			padding: 1em .3em;
+			display: inline-block;
+
+		}
+
+		div#container a h3{
+			font-size: 25px;
+		}
+
+	/*footer*/
+		
+		footer ul{
+			display: inline-block;
+		}
+			
+
+		footer ul li{
+			font-size: 25px;
+
+		}
+
+		footer ul li ol li{
+			font-size: 20px;
+			display: inline-block;
+			padding:0 4em;
+
+		}
+	/*proyectos*/
+		div.presentacion_tema{
+			margin: 0 3em;
+			padding: 0 0 3em 0;
+			
+		}
+		h4{
+			font-family: Roboto Slab;
+			font-weight: 700;
+			font-size: 50px;
+			text-align: right;
+			padding-right: 1em;
+			color: #333333;
+		}
+
+
+
+		div.proyecto1{
+			padding: 2em 0;
+
+
+
+		}
+
+		div.proyecto1 div.descripcion_proyecto{
+			margin-right: 48%;
+			padding-right: 0;
+			width: 48%;
+
+
+
+		}
+
+		h5{
+			font-size: 35px;
+			margin: 1em 0 .5em 0;
+			text-align: left;
+		}
+
+		div.proyecto1 div.descripcion_proyecto p{
+			margin-right: 0;
+			padding-right: 5em;
+
+
+		}
+	/*Estilos slider*/
+		ul.slider{
+			width: 50%;
+			height: 450px;
+			margin-left: 0;		
+
+		}
+
+		.slider input[type="radio"] + label {
+			width: 25px;
+			height: 25px;
+			border: 2px solid #C29618;
+			margin: 20px
+		}
+	/*estilo video */
+
+		div.video iframe{
+			width: 50%;
+			height: 500px;
+			margin-right:  50%;
+
+		}
+	/*sobre mi*/
+		div.presentacion_tema div#foto_perfil{
+			width: 350px;
+			height: 350px;
+			margin: 20px 150px 100px 150px;
+			float: left;
+			position: relative;
+			bottom: 120px;
+		}
+
+	/*Estilo formulario*/
+		form{
+			width: 50%;
+			margin: auto;
+		}
+
+		form input, textarea {
+			width: 400px;
+			padding: 5px 0;
+			font-size: 25px;
+			border: 3px solid #C29618;
+			border-radius: 10px;
+		}
+
+		#boton:hover{
+			cursor: pointer;
+			
+		}
+	/*estilos mensaje enviado*/
+		div.presentacion_tema div#mensaje_enviado{
+			width: 350px;
+			height: 350px;
+			margin: 20px 150px 100px 150px;
+			float: left;
+			position: relative;
+			bottom: 120px;
+		}
+		}
+}
+
+
 
 
