@@ -423,7 +423,7 @@
 			font-family: Roboto;
 			font-size: 25px;
 			list-style: none;
-			padding: 0 6em;
+			padding: 0 0 1em 6em;
 		}
 
 		footer ol li{
@@ -488,6 +488,7 @@
 		}
 	/*estilo video */
 		div.video{
+			width: 100%;
 		}
 	
 
