@@ -297,6 +297,7 @@
 			font-size: 35px;
 			padding: 0 .7em;
 			text-decoration:none;
+	
 		}
 
 		footer ol{
@@ -304,6 +305,7 @@
 			font-size: 30px;
 			list-style: none;
 			text-decoration: none;
+			padding: 1em 3em;
 		}
 
 
