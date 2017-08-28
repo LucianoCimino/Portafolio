@@ -290,7 +290,9 @@
 			color:#f2f2f2;
 		}
 
-
+		footer div#menufooter{
+			padding: 1em 0;
+		}
 
 		footer div#menufooter a{
 			font-family: Roboto Slab;
@@ -310,6 +312,10 @@
 
 		footer ol li{
 			padding: 0.8em 0;
+		}
+
+		footer ol li a{
+			text-decoration: none;
 		}
 
 
@@ -405,25 +411,26 @@
 
 	/*footer*/
 
-	/*display: flex;
-		flex-direction:column; 
-	}
-		
-		footer ul{
-			display: inline-block;
-		}
-			
-
-		footer ul li{
+		footer div#menufooter a{
+			font-family: Roboto Slab;
 			font-size: 25px;
+			padding: 0 4em;
+			margin: auto;
+			text-decoration:none;
 
 		}
 
-		footer ul li ol li{
-			font-size: 20px;
-			display: inline-block;
-			padding:0 4em;
-		}*/
+		footer ol{
+			font-family: Roboto;
+			font-size: 25px;
+			list-style: none;
+			padding: 0 6em;
+		}
+
+		footer ol li{
+			padding: 0.2em 0;
+
+		}
 
 
 	/*proyectos*/
