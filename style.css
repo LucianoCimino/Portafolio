@@ -296,6 +296,7 @@
 
 		footer div#menufooter a{
 			font-family: Roboto Slab;
+			font-weight: 700;
 			font-size: 35px;
 			padding: 0 .8em;
 			text-decoration:none;
