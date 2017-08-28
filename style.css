@@ -302,14 +302,14 @@
 
 		footer ol{
 			font-family: Roboto;
-			font-size: 25px;
+			font-size: 35px;
 			list-style: none;
 			text-decoration: none;
 			padding: 0 3em;
 		}
 
 		footer ol li{
-			padding: 0.5em 0;
+			padding: 1em 0;
 		}
 
 
