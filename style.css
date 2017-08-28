@@ -294,14 +294,16 @@
 
 		footer div#menufooter a{
 			font-family: Roboto Slab;
-			font-size: 40px;
-			padding: 0 .8em;
+			font-size: 35px;
+			padding: 0 .7em;
 			text-decoration:none;
 		}
 
 		footer ol{
 			font-family: Roboto;
 			font-size: 30px;
+			list-style: none;
+			text-decoration: none;
 		}
 
 
