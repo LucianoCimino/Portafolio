@@ -177,6 +177,9 @@
 
 		}
 	/*estilo video */
+		div.video{
+			width: 100%;
+		}
 
 
 		div.video iframe{
