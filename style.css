@@ -473,9 +473,6 @@
 			width: 50%;
 		}
 
-		div.proyecto1 div.descripcion_proyecto{
-
-		}
 
 	/*Estilos slider*/
 		.slider img{
@@ -489,6 +486,7 @@
 			border: 2px solid #C29618;
 			margin: 20px
 		}
+
 	/*estilo video */
 		div.video{
 			width: 100%;
@@ -507,9 +505,6 @@
 		}
 
 	/*Estilo formulario*/
-		form{
-
-		}
 
 		form input, textarea {
 			width: 600px;
